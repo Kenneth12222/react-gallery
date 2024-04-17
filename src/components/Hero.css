@@ -1,0 +1,63 @@
+.hero {
+    max-width: 1200px;
+    width: 90%;
+    height: 80vh;
+    margin: 0 auto;
+    background: url('../Assets/back.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+form {
+    background-color: #fff;
+    width: 400px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+form input {
+    width: 90%;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 2%;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+@media only screen and (max-width: 768px) {
+    form {
+        background-color: #fff;
+        width: 80%;
+        height: 60px;
+        border-radius: 5px;
+    }
+    
+    form input {
+        width: 90%;
+        margin-top: 2%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 10px 2%;
+        background: transparent;
+        border: none;
+        outline: none;
+    }
+    .content h1 {
+        text-align: center;
+    }
+}
