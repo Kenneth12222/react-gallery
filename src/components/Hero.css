@@ -3,7 +3,7 @@
     width: 90%;
     height: 80vh;
     margin: 0 auto;
-    background: url('../Assets/back.jpg');
+    /* background: url('../Assets/back.jpg'); */
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -17,6 +17,12 @@
     justify-content: center;
     width: 100%;
     height: 100%;
+}
+
+.content h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 10px 0;
 }
 
 form {
