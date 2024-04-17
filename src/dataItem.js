@@ -195,6 +195,8 @@ export const menu_list = [
     { menu_name: "Adventuresssss" },
     { menu_name: "Adventuresssss" },
     { menu_name: "Adventuresssss" },
-    { menu_name: "Adventuresssss" }
+    { menu_name: "Adventuresssss" },
   ];
+  
+
   
